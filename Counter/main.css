@@ -1,0 +1,43 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0761AB;
+    color: white;
+    font-family: 'calibri', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.counter-box{
+    text-align: center;
+    padding: 1rem;
+    flex:0 0 70%;
+    border: 3px solid gray;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px 10px 10px black;
+}
+
+.counter{
+    font-size: 6rem;
+}
+
+.btn{
+    font-size: 2rem;
+    margin: 0.5rem 0.25rem;
+    padding: 0.5rem;
+    background: #fff;
+    border-radius: 8px;
+    border: 3px solid #f15025;
+    box-shadow: 0px 5px #001221;
+    outline: none;
+}
+.btn:hover{
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn:active{
+    box-shadow: none;
+}
